@@ -4,5 +4,19 @@ module.exports = {
 	theme: {
 		extend: {},
 	},
-	plugins: [require('flowbite/plugin')],
+
+	daisyui: {
+		themes: [
+			{
+				mytheme: {
+					primary: '#EB370B ',
+					secondary: '#747C8E',
+					accent: '#37cdbe',
+					neutral: '#3d4451',
+					'base-100': '#ffffff',
+				},
+			},
+		],
+	},
+	plugins: [require('daisyui')],
 };
