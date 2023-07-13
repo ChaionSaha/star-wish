@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/*
-! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
-*/
+/* @import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css'); */
+
+/* ! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -7638,6 +7638,10 @@ details.collapse summary::-webkit-details-marker{
   margin-top: 0.75rem;
 }
 
+.mt-5{
+  margin-top: 1.25rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -7741,6 +7745,10 @@ details.collapse summary::-webkit-details-marker{
   height: 1.25rem;
 }
 
+.w-32{
+  width: 8rem;
+}
+
 .w-5{
   width: 1.25rem;
 }
@@ -7749,28 +7757,9 @@ details.collapse summary::-webkit-details-marker{
   width: 13rem;
 }
 
-.w-10{
-  width: 2.5rem;
-}
-
-.w-20{
-  width: 5rem;
-}
-
-.w-40{
-  width: 10rem;
-}
-
-.w-28{
-  width: 7rem;
-}
-
-.w-36{
-  width: 9rem;
-}
-
-.w-32{
-  width: 8rem;
+.w-fit{
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .flex-shrink{
@@ -8285,9 +8274,41 @@ details.collapse summary::-webkit-details-marker{
   justify-items: stretch;
 }
 
+.gap-x-3{
+  -moz-column-gap: 0.75rem;
+       column-gap: 0.75rem;
+}
+
+.gap-x-4{
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+
+.gap-x-40{
+  -moz-column-gap: 10rem;
+       column-gap: 10rem;
+}
+
+.gap-x-5{
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
+}
+
 .gap-x-7{
   -moz-column-gap: 1.75rem;
        column-gap: 1.75rem;
+}
+
+.gap-y-10{
+  row-gap: 2.5rem;
+}
+
+.gap-y-5{
+  row-gap: 1.25rem;
+}
+
+.gap-y-7{
+  row-gap: 1.75rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -8843,9 +8864,22 @@ details.collapse summary::-webkit-details-marker{
   padding-right: 0.25rem;
 }
 
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .py-5{
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .text-left{
@@ -8990,8 +9024,17 @@ details.collapse summary::-webkit-details-marker{
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
+.tracking-wide{
+  letter-spacing: 0.025em;
+}
+
 .text-\[\#336699\]\/\[\.35\]{
   color: rgb(51 102 153 / .35);
+}
+
+.text-black{
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-blue-500{
@@ -9342,6 +9385,25 @@ details.collapse summary::-webkit-details-marker{
   color: hsl(var(--p) / var(--tw-text-opacity));
 }
 
+.icon{
+  cursor: pointer;
+  border-radius: 9999px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: hsl(var(--p) / var(--tw-border-opacity));
+  fill: hsl(var(--p) / 1);
+  padding: 0.5rem;
+  --tw-text-opacity: 1;
+  color: hsl(var(--p) / var(--tw-text-opacity));
+  transition-duration: 150ms;
+}
+
+.icon:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(var(--p) / var(--tw-bg-opacity));
+  fill: #fff;
+}
+
 @media (hover:hover){
   .table .hover\:hover:hovertr:hover,
   .table .hover\:hover:hovertr:nth-child(even):hover{
@@ -9438,6 +9500,10 @@ details.collapse summary::-webkit-details-marker{
   font-weight: 700;
 }
 
+.hover\:underline:hover{
+  text-decoration-line: underline;
+}
+
 .before\:hover\:text-center:hover::before{
   content: var(--tw-content);
   text-align: center;
@@ -9473,6 +9539,15 @@ details.collapse summary::-webkit-details-marker{
 
   .lg\:w-40{
     width: 10rem;
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:px-0{
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
 
