@@ -8419,6 +8419,11 @@ details.collapse summary::-webkit-details-marker{
   row-gap: 1.75rem;
 }
 
+.gap-x-20{
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -9113,6 +9118,11 @@ details.collapse summary::-webkit-details-marker{
   line-height: 1.75rem;
 }
 
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -9780,6 +9790,10 @@ details.collapse summary::-webkit-details-marker{
 
   .lg\:mt-5{
     margin-top: 1.25rem;
+  }
+
+  .lg\:mt-36{
+    margin-top: 9rem;
   }
 
   .lg\:flex{
