@@ -11,56 +11,232 @@
 		<title>Star Wish</title>
 	</head>
 	<body>
-		<!-- navbar -->
-		<div class="container">
-			<div class="py-5 navbar bg-base-100">
-				<div class="navbar-start">
-					<div class="dropdown">
-						<label tabindex="0" class="btn btn-ghost lg:hidden">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								class="w-5 h-5"
-								fill="none"
-								viewBox="0 0 24 24"
-								stroke="currentColor"
+		<div class="h-[100vh]">
+			<!-- navbar -->
+			<div class="container h-[10vh]">
+				<div class="py-5 navbar bg-base-100">
+					<div class="navbar-start">
+						<div class="dropdown">
+							<label tabindex="0" class="btn btn-ghost lg:hidden">
+								<svg
+									xmlns="http://www.w3.org/2000/svg"
+									class="w-5 h-5"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+								>
+									<path
+										stroke-linecap="round"
+										stroke-linejoin="round"
+										stroke-width="2"
+										d="M4 6h16M4 12h8m-8 6h16"
+									/>
+								</svg>
+							</label>
+							<ul
+								tabindex="0"
+								class="menu menu-sm text-secondary dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
 							>
-								<path
-									stroke-linecap="round"
-									stroke-linejoin="round"
-									stroke-width="2"
-									d="M4 6h16M4 12h8m-8 6h16"
-								/>
-							</svg>
-						</label>
+								<li class="active-page"><a href="./index.html">Home</a></li>
+								<li><a href="./services.html">Our Services</a></li>
+								<li><a href="./aboutUs.html">About Us</a></li>
+							</ul>
+						</div>
+						<a class="text-xl normal-case btn btn-ghost hover:bg-transparent"
+							><img src="./img/logo.png" class="w-32 lg:w-40"
+						/></a>
+					</div>
+					<div class="hidden navbar-center lg:flex">
 						<ul
-							tabindex="0"
-							class="menu menu-sm text-secondary dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+							class="px-1 text-base menu menu-horizontal text-secondary gap-x-7"
 						>
 							<li class="active-page"><a href="./index.html">Home</a></li>
 							<li><a href="./services.html">Our Services</a></li>
 							<li><a href="./aboutUs.html">About Us</a></li>
 						</ul>
 					</div>
-					<a class="text-xl normal-case btn btn-ghost"
-						><img src="./img/logo.png" class="w-32 lg:w-40"
-					/></a>
+					<div class="navbar-end">
+						<a class="font-normal text-white normal-case btn btn-primary"
+							>Download App</a
+						>
+					</div>
 				</div>
-				<div class="hidden navbar-center lg:flex">
-					<ul
-						class="px-1 text-base menu menu-horizontal text-secondary gap-x-7"
-					>
-						<li class="active-page"><a href="./index.html">Home</a></li>
-						<li><a href="./services.html">Our Services</a></li>
-						<li><a href="./aboutUs.html">About Us</a></li>
-					</ul>
-				</div>
-				<div class="navbar-end">
-					<a class="font-normal text-white normal-case btn btn-primary"
-						>Download App</a
-					>
+			</div>
+
+			<!-- slider section -->
+			<div class="container relative h-[90vh] overflow-x-hidden">
+				<button class="slider-btn btn-left z-[100]" onclick="prevSlide()">
+					<i class="text-2xl bi bi-chevron-left"></i>
+				</button>
+				<button class="slider-btn btn-right z-[100]" onclick="nextSlide()">
+					<i class="text-2xl bi bi-chevron-right"></i>
+				</button>
+				<div class="w-full h-full px-5 overflow-x-hidden lg:px-20">
+					<div class="justify-center slide">
+						<h1
+							class="lg:w-[50%] w-[80%] text-5xl lg:text-7xl font-bold capitalize"
+						>
+							world first digital platform to talk with
+							<span class="text-primary">Celebrity</span>
+						</h1>
+					</div>
+
+					<div class="justify-center slide">
+						<h1
+							class="lg:w-[50%] w-[80%] text-5xl lg:text-7xl font-bold capitalize"
+						>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							<span class="text-primary">Celebrity</span>
+						</h1>
+					</div>
+
+					<div class="justify-center slide">
+						<h1
+							class="lg:w-[50%] w-[80%] text-5xl lg:text-7xl font-bold capitalize"
+						>
+							temporibus suscipit alias non aliquid quam modi
+							<span class="text-primary">Celebrity</span>
+						</h1>
+					</div>
 				</div>
 			</div>
 		</div>
+
+		<!-- phone mockup section -->
+		<div
+			class="container grid px-5 mt-20 lg:mt-5 gap-y-20 lg:px-0 lg:grid-cols-2"
+		>
+			<div class="flex flex-col justify-center gap-y-16">
+				<p class="text-2xl text-secondary">
+					Lorem ipsum dolor sit amet consectetur. Sit iaculis habitant viverra
+					est vel molestie pulvinar proin. Facilisi sed eu nunc nec purus
+					ultrices sed nunc.
+				</p>
+				<div class="grid grid-cols-3">
+					<div class="flex flex-col">
+						<p class="text-5xl font-bold">1M+</p>
+						<p class="text-secondary">Happy Clients</p>
+					</div>
+
+					<div class="flex flex-col">
+						<p class="text-5xl font-bold">2M+</p>
+						<p class="text-secondary">App Downloads</p>
+					</div>
+
+					<div class="flex flex-col">
+						<p class="text-5xl font-bold">200+</p>
+						<p class="text-secondary">Total Celebrity</p>
+					</div>
+				</div>
+				<div class="flex gap-x-5">
+					<a href="" class="flex items-center">
+						<img src="./img/play-store-lg.png" alt="" />
+					</a>
+
+					<a href="" class="flex items-center gap-x-3">
+						<img src="./img/app-store-lg.png" alt="" />
+					</a>
+				</div>
+			</div>
+			<div class="flex justify-center">
+				<img src="./img/phone-mockup.png" alt="" />
+			</div>
+		</div>
+
+		<!-- service section -->
+		<div class="container flex flex-col mt-28">
+			<div
+				class="flex flex-col items-center self-center w-1/2 text-center gap-y-5"
+			>
+				<h2 class="text-5xl font-bold">Our Service</h2>
+				<p class="text-secondary">
+					Amet consectetur. Sit iaculis habitant viverra est vel molestie
+					pulvinar proin. Facilisi sed eu nunc nec purus ultrices sed nunc.
+				</p>
+			</div>
+
+			<div class="grid grid-cols-4 gap-16 mt-20">
+				<div class="flex flex-col text-center shadow-xl rounded-xl">
+					<img src="./img/birthday.png" alt="" />
+					<p class="p-5 text-3xl font-semibold">Birthday</p>
+				</div>
+
+				<div class="flex flex-col text-center shadow-xl rounded-xl">
+					<img src="./img/new-year.png" alt="" />
+					<p class="p-5 text-3xl font-semibold">New Year</p>
+				</div>
+
+				<div class="flex flex-col text-center shadow-xl rounded-xl">
+					<img src="./img/nation-days.png" alt="" />
+					<p class="p-5 text-3xl font-semibold">Nation Days</p>
+				</div>
+
+				<div class="flex flex-col text-center shadow-xl rounded-xl">
+					<img src="./img/opening.png" alt="" />
+					<p class="p-5 text-3xl font-semibold">Opening</p>
+				</div>
+
+				<div class="flex flex-col text-center shadow-xl rounded-xl">
+					<img src="./img/wedding.png" alt="" />
+					<p class="p-5 text-3xl font-semibold">Wedding</p>
+				</div>
+
+				<div class="flex flex-col text-center shadow-xl rounded-xl">
+					<img src="./img/reception.png" alt="" />
+					<p class="p-5 text-3xl font-semibold">Reception</p>
+				</div>
+
+				<div class="flex flex-col text-center shadow-xl rounded-xl">
+					<img src="./img/engagement.png" alt="" />
+					<p class="p-5 text-3xl font-semibold">Engagement</p>
+				</div>
+
+				<div class="flex flex-col text-center shadow-xl rounded-xl">
+					<img src="./img/anniversary.png" alt="" />
+					<p class="p-5 text-3xl font-semibold">Anniversary</p>
+				</div>
+			</div>
+
+			<div
+				class="self-center px-20 mt-20 normal-case btn btn-primary btn-outline hover:text-white"
+			>
+				See All
+			</div>
+		</div>
+
+		<!-- about us section -->
+		<div class="container flex mt-20"></div>
+
+		<script>
+			'use strict';
+
+			const slides = document.querySelectorAll('.slide');
+
+			slides.forEach((slide, index) => {
+				slide.style.transform = `translateX(${index * 100}%)`;
+			});
+
+			let curSlide = 0,
+				maxSlide = slides.length - 1;
+
+			const gotoSlide = (slideNo) => {
+				slides.forEach((slide, index) => {
+					slide.style.transform = `translateX(${(index - slideNo) * 100}%)`;
+				});
+			};
+
+			const nextSlide = () => {
+				if (curSlide != maxSlide) curSlide++;
+
+				gotoSlide(curSlide);
+			};
+
+			const prevSlide = () => {
+				if (curSlide != 0) curSlide--;
+
+				gotoSlide(curSlide);
+			};
+		</script>
 
 		<!-- footer -->
 		<div class="pb-10 border-b">
