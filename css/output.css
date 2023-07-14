@@ -7672,6 +7672,14 @@ details.collapse summary::-webkit-details-marker{
   margin-top: 1.25rem;
 }
 
+.mb-20{
+  margin-bottom: 5rem;
+}
+
+.mt-10{
+  margin-top: 2.5rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -8411,6 +8419,10 @@ details.collapse summary::-webkit-details-marker{
   row-gap: 1.75rem;
 }
 
+.gap-y-3{
+  row-gap: 0.75rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -9002,6 +9014,11 @@ details.collapse summary::-webkit-details-marker{
   padding-bottom: 1.25rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -9087,6 +9104,26 @@ details.collapse summary::-webkit-details-marker{
 
 .text-xl{
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-lg{
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -9755,6 +9792,10 @@ details.collapse summary::-webkit-details-marker{
     margin-top: 1.25rem;
   }
 
+  .lg\:mt-20{
+    margin-top: 5rem;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -9822,6 +9863,16 @@ details.collapse summary::-webkit-details-marker{
   .lg\:text-7xl{
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .lg\:text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
