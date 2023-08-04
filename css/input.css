@@ -27,11 +27,12 @@
 	position: absolute;
 	width: 100%;
 	transition: all 700ms ease-in-out;
-	@apply flex flex-col h-full;
+	@apply flex h-full overflow-x-hidden;
 }
 
 .slider-btn {
-	@apply absolute p-2 px-3 rounded-full hover:bg-primary hover:text-white duration-150 top-[90%] lg:top-[50%] bg-[#FFF4ED] text-primary;
+	@apply absolute p-2 px-3 rounded-full hover:bg-primary hover:text-white duration-150 top-[90%] lg:top-[50%] bg-[#FFF4ED] text-primary z-[100];
+	overflow: visible;
 }
 
 .btn-left {
