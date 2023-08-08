@@ -7799,6 +7799,19 @@ details.collapse summary::-webkit-details-marker{
   height: 100%;
 }
 
+.h-\[80vh\]{
+  height: 80vh;
+}
+
+.h-\[70vh\]{
+  height: 70vh;
+}
+
+.h-fit{
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
 .w-32{
   width: 8rem;
 }
@@ -7826,6 +7839,10 @@ details.collapse summary::-webkit-details-marker{
 
 .w-full{
   width: 100%;
+}
+
+.max-w-xs{
+  max-width: 20rem;
 }
 
 .flex-shrink{
@@ -9137,6 +9154,11 @@ details.collapse summary::-webkit-details-marker{
   line-height: 1.75rem;
 }
 
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -9897,23 +9919,13 @@ details.collapse summary::-webkit-details-marker{
     gap: 4rem;
   }
 
-  .lg\:gap-x-10{
-    -moz-column-gap: 2.5rem;
-         column-gap: 2.5rem;
-  }
-
-  .lg\:gap-x-40{
-    -moz-column-gap: 10rem;
-         column-gap: 10rem;
+  .lg\:gap-x-20{
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
   }
 
   .lg\:gap-y-0{
     row-gap: 0px;
-  }
-
-  .lg\:gap-x-20{
-    -moz-column-gap: 5rem;
-         column-gap: 5rem;
   }
 
   .lg\:self-start{
@@ -9945,26 +9957,9 @@ details.collapse summary::-webkit-details-marker{
     line-height: 1;
   }
 
-  .lg\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:leading-5{
-    line-height: 1.25rem;
-  }
-
-  .lg\:leading-10{
-    line-height: 2.5rem;
-  }
-
-  .lg\:leading-snug{
-    line-height: 1.375;
   }
 
   .lg\:leading-tight{

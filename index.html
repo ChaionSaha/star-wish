@@ -11,7 +11,7 @@
 		<title>Star Wish</title>
 	</head>
 	<body>
-		<div class="h-[100vh]">
+		<div class="h-fit">
 			<!-- navbar -->
 			<div class="container h-[10vh]">
 				<div class="py-5 navbar bg-base-100">
@@ -55,7 +55,7 @@
 							<li><a href="./aboutUs.html">About Us</a></li>
 						</ul>
 					</div>
-					<div class="navbar-end">
+					<div class="flex items-center navbar-end gap-x-10">
 						<a class="font-normal text-white normal-case btn btn-primary"
 							>Download App</a
 						>
@@ -64,7 +64,7 @@
 			</div>
 
 			<!-- slider section -->
-			<div class="relative container h-[90vh] overflow-x-hidden">
+			<div class="relative container h-[80vh] overflow-x-hidden">
 				<button class="slider-btn btn-left" onclick="prevSlide()">
 					<i class="text-2xl bi bi-chevron-left"></i>
 				</button>
@@ -73,47 +73,31 @@
 				</button>
 
 				<div class="w-full h-full px-0 lg:px-0">
-					<div
-						class="flex flex-col items-center justify-center grid-cols-1 lg:gap-x-20 gap-y-10 lg:grid lg:grid-cols-2 slide"
-					>
-						<h1
-							class="px-5 text-5xl font-bold capitalize lg:px-20 lg:leading-tight lg:text-6xl"
-						>
-							world first digital platform to
-							<span class="text-primary">talk</span> with
-							<span class="text-primary">Celebrity</span>
-						</h1>
-						<div class="px-5 lg:px-0">
-							<img class="w-full" src="./img/hero-slider-img.png" alt="" />
-						</div>
+					<div class="flex items-center justify-center slide">
+						<img
+							src="./img/slider-pic-1.png"
+							alt=""
+							class="h-full"
+							style="object-fit: contain"
+						/>
 					</div>
 
-					<div
-						class="flex flex-col items-center justify-center grid-cols-1 lg:gap-x-20 gap-y-10 lg:grid lg:grid-cols-2 slide"
-					>
-						<h1
-							class="px-5 text-5xl font-bold capitalize lg:px-20 lg:leading-tight lg:text-6xl"
-						>
-							Lorem ipsum dolor sit amet consectetur adipisicing
-							<span class="text-primary">Celebrity</span>
-						</h1>
-						<div class="px-5 lg:px-0">
-							<img class="w-full" src="./img/hero-slider-img.png" alt="" />
-						</div>
+					<div class="flex items-center justify-center slide">
+						<img
+							src="./img/slider-pic-1.png"
+							alt=""
+							class="h-full"
+							style="object-fit: contain"
+						/>
 					</div>
 
-					<div
-						class="flex flex-col items-center justify-center grid-cols-1 lg:gap-x-20 gap-y-10 lg:grid lg:grid-cols-2 slide"
-					>
-						<h1
-							class="px-5 text-5xl font-bold capitalize lg:px-20 lg:leading-tight lg:text-6xl"
-						>
-							temporibus suscipit alias non aliquid quam modi
-							<span class="text-primary">Celebrity</span>
-						</h1>
-						<div class="px-5 lg:px-0">
-							<img class="w-full" src="./img/hero-slider-img.png" alt="" />
-						</div>
+					<div class="flex items-center justify-center slide">
+						<img
+							src="./img/slider-pic-1.png"
+							alt=""
+							class="h-full"
+							style="object-fit: contain"
+						/>
 					</div>
 				</div>
 			</div>
