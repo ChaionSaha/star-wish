@@ -7783,33 +7783,21 @@ details.collapse summary::-webkit-details-marker{
   height: 1.25rem;
 }
 
-.h-\[100vh\]{
-  height: 100vh;
-}
-
 .h-\[10vh\]{
   height: 10vh;
 }
 
-.h-\[90vh\]{
-  height: 90vh;
-}
-
-.h-full{
-  height: 100%;
-}
-
-.h-\[80vh\]{
-  height: 80vh;
-}
-
-.h-\[70vh\]{
-  height: 70vh;
+.h-\[50vh\]{
+  height: 50vh;
 }
 
 .h-fit{
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-32{
@@ -7839,10 +7827,6 @@ details.collapse summary::-webkit-details-marker{
 
 .w-full{
   width: 100%;
-}
-
-.max-w-xs{
-  max-width: 20rem;
 }
 
 .flex-shrink{
@@ -8176,10 +8160,6 @@ details.collapse summary::-webkit-details-marker{
 
 .grid-flow-col-dense{
   grid-auto-flow: column dense;
-}
-
-.grid-cols-1{
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2{
@@ -9154,11 +9134,6 @@ details.collapse summary::-webkit-details-marker{
   line-height: 1.75rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
 .font-bold{
   font-weight: 700;
 }
@@ -9255,11 +9230,6 @@ details.collapse summary::-webkit-details-marker{
 .text-blue-500{
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-primary{
-  --tw-text-opacity: 1;
-  color: hsl(var(--p) / var(--tw-text-opacity));
 }
 
 .text-secondary{
@@ -9688,7 +9658,7 @@ details.collapse summary::-webkit-details-marker{
 }
 
 .btn-right{
-  right: 70%;
+  right: 67%;
 }
 
 @media (min-width: 992px){
@@ -9862,20 +9832,16 @@ details.collapse summary::-webkit-details-marker{
     display: flex;
   }
 
-  .lg\:grid{
-    display: grid;
-  }
-
   .lg\:hidden{
     display: none;
   }
 
-  .lg\:w-1\/2{
-    width: 50%;
+  .lg\:h-\[80vh\]{
+    height: 80vh;
   }
 
-  .lg\:w-40{
-    width: 10rem;
+  .lg\:w-1\/2{
+    width: 50%;
   }
 
   .lg\:w-\[50\%\]{
@@ -9919,11 +9885,6 @@ details.collapse summary::-webkit-details-marker{
     gap: 4rem;
   }
 
-  .lg\:gap-x-20{
-    -moz-column-gap: 5rem;
-         column-gap: 5rem;
-  }
-
   .lg\:gap-y-0{
     row-gap: 0px;
   }
@@ -9937,11 +9898,6 @@ details.collapse summary::-webkit-details-marker{
     padding-right: 0px;
   }
 
-  .lg\:px-20{
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
   .lg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -9952,18 +9908,9 @@ details.collapse summary::-webkit-details-marker{
     line-height: 2.5rem;
   }
 
-  .lg\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:leading-tight{
-    line-height: 1.25;
   }
 }
 
