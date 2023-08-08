@@ -7800,6 +7800,10 @@ details.collapse summary::-webkit-details-marker{
   height: 100%;
 }
 
+.h-\[60vh\]{
+  height: 60vh;
+}
+
 .w-32{
   width: 8rem;
 }
@@ -9838,6 +9842,10 @@ details.collapse summary::-webkit-details-marker{
 
   .lg\:h-\[80vh\]{
     height: 80vh;
+  }
+
+  .lg\:h-full{
+    height: 100%;
   }
 
   .lg\:w-1\/2{
