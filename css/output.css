@@ -7612,10 +7612,6 @@ details.collapse summary::-webkit-details-marker{
   z-index: 100;
 }
 
-.z-\[1\]{
-  z-index: 1;
-}
-
 .float-right{
   float: right;
 }
@@ -7783,10 +7779,6 @@ details.collapse summary::-webkit-details-marker{
   height: 1.25rem;
 }
 
-.h-\[10vh\]{
-  height: 10vh;
-}
-
 .h-\[60vh\]{
   height: 60vh;
 }
@@ -7869,13 +7861,13 @@ details.collapse summary::-webkit-details-marker{
   border-collapse: separate;
 }
 
-.translate-y-1\/2{
-  --tw-translate-y: 50%;
+.translate-x-\[-50\%\]{
+  --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.translate-x-\[-50\%\]{
-  --tw-translate-x: -50%;
+.translate-y-1\/2{
+  --tw-translate-y: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -8363,6 +8355,11 @@ details.collapse summary::-webkit-details-marker{
   gap: 2.5rem;
 }
 
+.gap-x-0{
+  -moz-column-gap: 0px;
+       column-gap: 0px;
+}
+
 .gap-x-10{
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -8424,21 +8421,6 @@ details.collapse summary::-webkit-details-marker{
 
 .gap-y-6{
   row-gap: 1.5rem;
-}
-
-.gap-x-2{
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
-}
-
-.gap-x-1{
-  -moz-column-gap: 0.25rem;
-       column-gap: 0.25rem;
-}
-
-.gap-x-0{
-  -moz-column-gap: 0px;
-       column-gap: 0px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]){
@@ -9017,10 +8999,6 @@ details.collapse summary::-webkit-details-marker{
   padding: 1.25rem;
 }
 
-.p-0{
-  padding: 0px;
-}
-
 .px-0{
   padding-left: 0px;
   padding-right: 0px;
@@ -9046,27 +9024,16 @@ details.collapse summary::-webkit-details-marker{
   padding-bottom: 2.5rem;
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.px-3{
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .pb-10{
   padding-bottom: 2.5rem;
 }
 
 .pb-14{
   padding-bottom: 3.5rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
 }
 
 .pt-10{
@@ -9165,11 +9132,6 @@ details.collapse summary::-webkit-details-marker{
 
 .text-xl{
   font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-lg{
-  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -9789,36 +9751,15 @@ details.collapse summary::-webkit-details-marker{
     font-size: 0.875rem;
   }
 
-  .lg\:btn-lg{
-    height: 4rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    min-height: 4rem;
-    font-size: 1.125rem;
-  }
-
   .btn-square:where(.lg\:btn-md){
     height: 3rem;
     width: 3rem;
     padding: 0px;
   }
 
-  .btn-square:where(.lg\:btn-lg){
-    height: 4rem;
-    width: 4rem;
-    padding: 0px;
-  }
-
   .btn-circle:where(.lg\:btn-md){
     height: 3rem;
     width: 3rem;
-    border-radius: 9999px;
-    padding: 0px;
-  }
-
-  .btn-circle:where(.lg\:btn-lg){
-    height: 4rem;
-    width: 4rem;
     border-radius: 9999px;
     padding: 0px;
   }
@@ -9886,10 +9827,6 @@ details.collapse summary::-webkit-details-marker{
 .hover\:before\:text-center:hover::before{
   content: var(--tw-content);
   text-align: center;
-}
-
-.focus\:border-none:focus{
-  border-style: none;
 }
 
 .focus\:outline-none:focus{
@@ -9988,6 +9925,20 @@ details.collapse summary::-webkit-details-marker{
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .lg\:py-10{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .lg\:py-5{
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:pt-5{
+    padding-top: 1.25rem;
   }
 
   .lg\:text-3xl{
