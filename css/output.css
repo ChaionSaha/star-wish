@@ -7787,8 +7787,8 @@ details.collapse summary::-webkit-details-marker{
   height: 10vh;
 }
 
-.h-\[50vh\]{
-  height: 50vh;
+.h-\[60vh\]{
+  height: 60vh;
 }
 
 .h-fit{
@@ -7798,10 +7798,6 @@ details.collapse summary::-webkit-details-marker{
 
 .h-full{
   height: 100%;
-}
-
-.h-\[60vh\]{
-  height: 60vh;
 }
 
 .w-32{
@@ -9031,6 +9027,16 @@ details.collapse summary::-webkit-details-marker{
   padding-bottom: 1.25rem;
 }
 
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -9826,10 +9832,6 @@ details.collapse summary::-webkit-details-marker{
 @media (min-width: 992px){
   .lg\:mt-20{
     margin-top: 5rem;
-  }
-
-  .lg\:mt-5{
-    margin-top: 1.25rem;
   }
 
   .lg\:flex{
