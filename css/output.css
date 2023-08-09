@@ -9898,6 +9898,10 @@ details.collapse summary::-webkit-details-marker{
     flex-direction: row;
   }
 
+  .lg\:flex-col-reverse{
+    flex-direction: column-reverse;
+  }
+
   .lg\:items-center{
     align-items: center;
   }
@@ -9927,18 +9931,16 @@ details.collapse summary::-webkit-details-marker{
     padding-right: 0px;
   }
 
-  .lg\:py-10{
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
-  }
-
-  .lg\:py-5{
-    padding-top: 1.25rem;
+  .lg\:pb-5{
     padding-bottom: 1.25rem;
   }
 
-  .lg\:pt-5{
-    padding-top: 1.25rem;
+  .lg\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .lg\:pb-4{
+    padding-bottom: 1rem;
   }
 
   .lg\:text-3xl{
